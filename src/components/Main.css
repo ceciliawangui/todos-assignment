@@ -1,0 +1,44 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.Title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.Icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.Icon:hover {
+  color: #000;
+}
